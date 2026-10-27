@@ -1,4 +1,4 @@
 .aws/
 *.csv
 *.db
-__pycache__/
+.bash_history
