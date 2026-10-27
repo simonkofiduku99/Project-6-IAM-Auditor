@@ -1,18 +1,16 @@
-# Project 6 - IAM Policy Auditor (boto3)
+# Project-6-IAM-Auditor
 
-AWS IAM security auditor built with Python boto3.
+A Python-based AWS IAM Security Auditor that scans for:
+- Old IAM Access Keys
+- Active keys check
+- Security best practices
 
-**What I did:**
-- Created IAM user audit-test-user
-- Created group AuditorGroup with IAMReadOnlyAccess (best practice - policy on group, not user)
-- Created and rotated access keys - left 1 active key
+## 🛠️ Tech Stack
+- Python 3
+- AWS CloudShell / IAM
+- Git & GitHub
 
-**Result from auditor:**
-User: audit-test-user
-  [HIGH] -> NO MFA (expected - console access disabled)
-  [OK] Member of: AuditorGroup
-  [INFO] Key Active
+## ✅ Auditor Output
+Successfully pushed to GitHub — Project 6 Complete:
 
-**Screenshots:** /screenshots folder
 
-**Tools:** AWS CloudShell, IAM, boto3, Python 3.13
